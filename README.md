@@ -3,4 +3,4 @@ Este repositório tem o objetivo de disponibilizar código fonte de solução de
 
 Turoeial completo em video no Youtbe, no link abaixo:
 
-https://youtu.be/URDJCw1Uxh8
+https://youtu.be/E0tDZU5Ct0Y

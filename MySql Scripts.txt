@@ -1,0 +1,15 @@
+
+use compose;
+
+CREATE TABLE `compose`.`protocolos` (
+  `protocolo_id` INT NOT NULL,
+  `status` VARCHAR(20) NULL,
+  PRIMARY KEY (`protocolo_id`));
+
+USE compose;
+INSERT INTO `compose`.`protocolos` (`protocolo_id`, `status`) VALUES (1,'FECHADO');
+INSERT INTO `compose`.`protocolos` (`protocolo_id`, `status`) VALUES(2,'ABERTO');
+INSERT INTO `compose`.`protocolos` (`protocolo_id`, `status`) VALUES(3,'FECHADO');
+INSERT INTO `compose`.`protocolos` (`protocolo_id`, `status`) VALUES(4,'CONCLUIDO');
+
+SELECT * from `compose`.`protocolos`;

@@ -22,7 +22,7 @@ function main(array $args) : array
 
     $mysql_server_name = "sl-us-south-1-portal.54.dblayer.com:28582";
     $mysql_username = "admin";
-    $mysql_password = "RCZXLRAWEELNVABO";
+    $mysql_password = "<password>";
     $mysql_database = "compose";
 //    echo "Debug: " . $mysql_server_name . ", " .  $mysql_username . ", " .  $mysql_password . "<br>";
     $conn = new mysqli($mysql_server_name, $mysql_username, $mysql_password, $mysql_database);
